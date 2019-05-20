@@ -21,43 +21,41 @@
 //     }
 // }
 
-// let promp= +prompt();
-// let sum=1;
-//
-// for (let i=1;i<=promp;++i) {
-//     sum=sum*i;
+// let i=promp;
+// while (i>0) {
+//     sum=promp*(promp-(-promp+i));
+//     // sum= sum*(sum-(sum-i));
+//     i--;
 //     console.log(sum);
 // }
-
 
 
 
 let promp= +prompt();
 let sum=1;
 
-// for (let i=promp;i>1;i--) {
-//     sum= sum*(promp-(promp-i));
-//     console.log(sum);
-// }
 
-// for (let i=1;i<=promp;i++) {
-//     sum= sum*(sum-(sum-i));
-//     console.log(sum);
-// }
-
-
-
-// let i=1;
-// while (i<=promp) {
-//     sum= sum*(sum-(sum-i));
-//     i++;
-//     console.log(sum);
-// }
-
-let i=promp;
-while (i>0) {
-    sum=promp*(promp-(-promp+i));
-    // sum= sum*(sum-(sum-i));
-    i--;
+for (let i=1;i<=promp;++i) {
+    sum=sum*i;
     console.log(sum);
 }
+
+
+for (let i=promp;i>1;i--) {
+    sum= sum*(promp-(promp-i));
+    console.log(sum);
+}
+
+for (let i=1;i<=promp;i++) {
+    sum= sum*(sum-(sum-i));
+    console.log(sum);
+}
+
+let i=1;
+while (i<=promp) {
+    sum= sum*(sum-(sum-i));
+    i++;
+    console.log(sum);
+}
+
+
