@@ -32,8 +32,8 @@
 
 
 
-let promp= +prompt();
-let sum=1;
+// let promp= +prompt();
+// let sum=1;
 
 // for (let i=promp;i>1;i--) {
 //     sum= sum*(promp-(promp-i));
@@ -54,10 +54,22 @@ let sum=1;
 //     console.log(sum);
 // }
 
-let i=promp;
-while (i>0) {
-    sum=promp*(promp-(-promp+i));
-    // sum= sum*(sum-(sum-i));
-    i--;
-    console.log(sum);
+
+// let promp= +prompt();
+// let d=promp;
+// let sum=0;
+// for (i=0;i<promp;i++) {
+//     sum=sum+d;
+//     console.log(sum);
+// }
+let prom = +prompt();
+function f(a,d,progres) {
+    for (i=0;i<prom;i++){
+        progres+=d;
+        console.log(progres);
+
+    }
 }
+
+
+f(prom,prom,prom);
