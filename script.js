@@ -31,31 +31,40 @@
 
 
 
-let promp= +prompt();
-let sum=1;
+// let promp= +prompt();
+// let sum=1;
 
 
-for (let i=1;i<=promp;++i) {
-    sum=sum*i;
-    console.log(sum);
-}
+// for (let i=1;i<=promp;++i) {
+//     sum=sum*i;
+//     console.log(sum);
+// }
 
 
-for (let i=promp;i>1;i--) {
-    sum= sum*(promp-(promp-i));
-    console.log(sum);
-}
+// for (let i=promp;i>1;i--) {
+//     sum= sum*(promp-(promp-i));
+//     console.log(sum);
+// }
 
-for (let i=1;i<=promp;i++) {
-    sum= sum*(sum-(sum-i));
-    console.log(sum);
-}
+// for (let i=1;i<=promp;i++) {
+//     sum= sum*(sum-(sum-i));
+//     console.log(sum);
+// }
 
-let i=1;
-while (i<=promp) {
-    sum= sum*(sum-(sum-i));
-    i++;
-    console.log(sum);
-}
+// let i=1;
+// while (i<=promp) {
+//     sum= sum*(sum-(sum-i));
+//     i++;
+//     console.log(sum);
+// }
 
-
+function sumTo(n) {
+    let sum = n;
+    for (var i = 1; i < n; i++) {
+    sum += n;
+    }
+    return sum;
+  }
+  let promp = +prompt();
+  console.log( sumTo(promp))
+ 
