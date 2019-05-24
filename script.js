@@ -41,14 +41,13 @@
 // }
 
 
-<<<<<<< HEAD
+
 
 
 // let promp= +prompt();
 // let sum=1;
 
-=======
->>>>>>> c8bdbaa04b6c464273276e22cd3b786e9cc2e6af
+
 // for (let i=promp;i>1;i--) {
 //     sum= sum*(promp-(promp-i));
 //     console.log(sum);
@@ -66,7 +65,6 @@
 //     console.log(sum);
 // }
 
-<<<<<<< HEAD
 
 // let promp= +prompt();
 // let d=promp;
@@ -118,41 +116,32 @@
 //         max=arr[i];
 //         console.log(max);
 //     }
+//     else if (arr[i]>arr[0]) {
+//         min=arr[i];
+//     }
 // }
-let number = [];
-let string = [];
+// let number = [];
+// let string = [];
 
 
 let arr = [12,23,31,64,5,"umnica","lavash","zubochistka",[67,"zorro",12],48,125,["zadnica",85, 17] ];
 
- for(i=0;i<arr.length;i++) {
-
+ for( let i=0;i<arr.length;i++) {
      if (typeof arr[i] === "number") {
          number.push(arr[i]);
-         // console.log(number);
      }
      else if (typeof arr[i] === "string") {
          string.push(arr[i]);
-         // console.log(string);
      }
      else {
-         // if (typeof arr[i][i]==="number") {
          let arrIntoArr = arr[i];
-         // arrIntoArr=arrIntoArr[2];
-         // let deepArrArr= arrIntoArr[0];
-
-         for (k = 0; k < arrIntoArr.length; k++) {
-
+         for (let k = 0; k < arrIntoArr.length; k++) {
              if (typeof arrIntoArr[k] === "number") {
                  number.push(arrIntoArr[k]);
              }
-             // console.log(arrIntoArr[k]);
              else {
                  string.push(arrIntoArr[k]);
-                 // console.log(arrIntoArr[k]);
              }
-             // console.log(arrIntoArr.length);
-
          }
 
      }
@@ -160,15 +149,6 @@ let arr = [12,23,31,64,5,"umnica","lavash","zubochistka",[67,"zorro",12],48,125,
     console.log(number);
     console.log(string);
 
-=======
-function sumTo(n) {
-    let sum = n;
-    for (let i = 1; i < n; i++) {
-    sum += n;
-    }
-    return sum;
-  }
-  let promp = +prompt();
-  console.log( sumTo(promp))
- 
->>>>>>> c8bdbaa04b6c464273276e22cd3b786e9cc2e6af
+
+
+
