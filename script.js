@@ -21,20 +21,34 @@
 //     }
 // }
 
+// let i=promp;
+// while (i>0) {
+//     sum=promp*(promp-(-promp+i));
+//     // sum= sum*(sum-(sum-i));
+//     i--;
+//     console.log(sum);
+// }
+
+
+
 // let promp= +prompt();
 // let sum=1;
-//
+
+
 // for (let i=1;i<=promp;++i) {
 //     sum=sum*i;
 //     console.log(sum);
 // }
 
 
+<<<<<<< HEAD
 
 
 // let promp= +prompt();
 // let sum=1;
 
+=======
+>>>>>>> c8bdbaa04b6c464273276e22cd3b786e9cc2e6af
 // for (let i=promp;i>1;i--) {
 //     sum= sum*(promp-(promp-i));
 //     console.log(sum);
@@ -45,8 +59,6 @@
 //     console.log(sum);
 // }
 
-
-
 // let i=1;
 // while (i<=promp) {
 //     sum= sum*(sum-(sum-i));
@@ -54,6 +66,7 @@
 //     console.log(sum);
 // }
 
+<<<<<<< HEAD
 
 // let promp= +prompt();
 // let d=promp;
@@ -147,3 +160,15 @@ let arr = [12,23,31,64,5,"umnica","lavash","zubochistka",[67,"zorro",12],48,125,
     console.log(number);
     console.log(string);
 
+=======
+function sumTo(n) {
+    let sum = n;
+    for (let i = 1; i < n; i++) {
+    sum += n;
+    }
+    return sum;
+  }
+  let promp = +prompt();
+  console.log( sumTo(promp))
+ 
+>>>>>>> c8bdbaa04b6c464273276e22cd3b786e9cc2e6af
